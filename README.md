@@ -1,1 +1,1 @@
-This repo is used to to sync Sublime Text settings
+This repo is used to sync Sublime Text settings
