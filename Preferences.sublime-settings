@@ -1,0 +1,12 @@
+{
+	"color_scheme": "Mariana.sublime-color-scheme",
+	"theme": "Default Dark.sublime-theme",
+	"open_files_in_new_window": false,
+	"rulers":[79],
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"draw_white_space": "all",
+	"index_files": true,
+}
