@@ -1,0 +1,12 @@
+{
+    "cmd": ["/Users/NIMS/opt/anaconda3/bin/python3", "-u", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.python",
+    "shell": false,
+    "variants": [
+        {
+            "name": "Run with Python 2",
+            "cmd": ["python", "-u", "$file"]
+        }
+    ]
+}

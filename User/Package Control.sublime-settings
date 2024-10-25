@@ -1,0 +1,17 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+		"SideBarEnhancements",
+	],
+	"installed_packages":
+	[
+		"ColorPicker",
+		"Fortran",
+		"Git",
+		"Increment Selection",
+		"SideBarEnhancements",
+		"SublimeLinter-flake8",
+		"Terminal",
+	],
+}

@@ -1,0 +1,28 @@
+%YAML 1.2
+---
+name: Gnuplot
+file_extensions: [gp, gnuplot, gnu]
+scope: source.gnuplot
+
+contexts:
+  main:
+    - match: '#.*'
+      scope: comment.line.gnuplot
+    - match: '\b(set|unset|reset|plot|splot|replot|fit|show|pause|refresh|exit|load)\b'
+      scope: keyword.control.main.gnuplot
+    - match: '\b(xrange|yrange|xlabel|ylabel|title|grid|key|style|datafile separator|term|terminal|output|style data|using|with|every|index|smooth)\b'
+      scope: constant.numeric.gnuplot
+    - match: '\b(lines|points|linespoints|impulses|boxes|filledcurves|steps|size|enhanced|font|colorsequence|encoding)\b'
+      scope: keyword.plotstyle.gnuplot
+    - match: '\b(sin|cos|tan|exp|log|sqrt|abs|int|floor|ceil)\b'
+      scope: keyword.function.gnuplot
+    - match: '"(?:[^"\\]|\\.)*"'
+      scope: string.quoted.double.gnuplot
+    - match: '\d+(\.\d+)?'
+      scope: constant.numeric.gnuplot
+    - match: '\b[A-Za-z_][A-Za-z0-9_]*\b'
+      scope: variable.other.gnuplot
+    - match: '[\[\](){}]'
+      scope: punctuation.parenthesis.gnuplot
+    - match: '[;]'
+      scope: punctuation.separator.gnuplot

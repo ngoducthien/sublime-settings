@@ -1,0 +1,9 @@
+{
+    "cmd": ["bash", "-c", "/Users/NIMS/OneDrive/scripts/mypath/gnuplot-viewer-mac \"$file\""],
+    "selector": "source.gnuplot",
+    "shell": false,
+    "working_dir": "$file_path",
+    "env": {
+        "PATH": "/Users/NIMS/OneDrive/scripts/mypath:$PATH"
+    }
+}
